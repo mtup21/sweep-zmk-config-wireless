@@ -16,6 +16,22 @@
     combos {
     };
 
+    macros {
+        instance: instance {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp I &kp N &kp S &kp T &kp A &kp N &kp C &kp E &kp EQUAL>;
+            label = "INSTANCE";
+        };
+
+        pattern: pattern {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp P &kp A &kp T &kp T &kp E &kp R &kp N &kp EQUAL>;
+            label = "PATTERN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -30,10 +46,10 @@
 
         layer_2 {
             bindings = <
-&kp N1     &kp N2  &kp N3  &kp N4        &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
-&kp TILDE  &trans  &trans  &kp PLUS      &kp MINUS    &kp DELETE       &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
-&kp GRAVE  &trans  &trans  &kp KP_EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
-                           &trans        &trans       &kp RIGHT_SHIFT  &trans
+&kp N1     &kp N2    &kp N3     &kp N4        &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
+&kp TAB    &trans    &kp TILDE  &kp PLUS      &kp MINUS    &kp DELETE       &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
+&instance  &pattern  &kp GRAVE  &kp KP_EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
+                                &trans        &trans       &kp RIGHT_SHIFT  &trans
             >;
         };
 
