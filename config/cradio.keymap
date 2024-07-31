@@ -44,19 +44,19 @@
 
         base_layer {
             bindings = <
-&kp Q             &kp W  &kp E  &kp R  &kp T                   &kp Y       &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S  &kp D  &kp F  &kp G                   &kp H       &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B                   &kp N       &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                                &mo 1  &mt LEFT_SHIFT SPACE    &kp RETURN  &mo 2
+&kp Q             &kp W  &kp E  &kp R  &kp T                 &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S  &kp D  &kp F  &kp G                 &kp H      &kp J  &kp K      &kp L    &kp SEMI
+&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B                 &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
+                                &mo 1  &mt LEFT_SHIFT RET    &kp SPACE  &mo 2
             >;
         };
 
         layer_2 {
             bindings = <
-&kp N1     &kp N2    &kp N3     &kp N4        &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
-&kp TAB    &trans    &kp TILDE  &kp PLUS      &kp MINUS    &kp BACKSPACE    &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
-&instance  &pattern  &kp GRAVE  &kp KP_EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
-                                &trans        &trans       &kp RIGHT_SHIFT  &trans
+&kp N1     &kp N2       &kp N3     &kp N4        &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
+&kp TAB    &code_block  &kp TILDE  &kp PLUS      &kp MINUS    &kp BACKSPACE    &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
+&instance  &pattern     &kp GRAVE  &kp KP_EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
+                                   &trans        &trans       &kp RIGHT_SHIFT  &trans
             >;
         };
 
