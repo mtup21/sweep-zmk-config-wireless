@@ -63,7 +63,7 @@
         layer_3 {
             bindings = <
 &trans  &trans    &kp UP_ARROW  &trans     &kp C_VOL_UP         &kp PAGE_UP    &trans    &none        &trans  &trans
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &kp PAGE_DOWN  &none     &none        &none   &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &kp PAGE_DOWN  &none     &none        &none   &kp SQT
 &trans  &trans    &trans        &none      &none                &instance      &pattern  &code_block  &trans  &trans
                                 &trans     &trans               &trans         &trans
             >;
