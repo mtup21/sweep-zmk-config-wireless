@@ -56,7 +56,7 @@
 &kp N1     &kp N2       &kp N3     &kp N4        &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
 &kp TAB    &code_block  &kp TILDE  &kp PLUS      &kp MINUS    &kp BACKSPACE    &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
 &instance  &pattern     &kp GRAVE  &kp KP_EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
-                                   &trans        &trans       &kp RIGHT_SHIFT  &trans
+                                   &trans        &trans       &kp RIGHT_SHIFT  &kp APOS
             >;
         };
 
