@@ -53,16 +53,16 @@
 
         layer_2 {
             bindings = <
-&kp N1     &kp N2       &kp N3     &kp N4     &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
-&kp TAB    &code_block  &kp TILDE  &kp PLUS   &kp MINUS    &kp BACKSPACE    &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
-&instance  &pattern     &kp GRAVE  &kp EQUAL  &kp UNDER    &trans           &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
-                                   &trans     &trans       &kp RIGHT_SHIFT  &kp APOS
+&kp N1   &kp N2  &kp N3     &kp N4     &kp N5       &kp N6           &kp N7            &kp N8           &kp N9             &kp N0
+&kp TAB  &trans  &kp TILDE  &kp PLUS   &kp MINUS    &kp SEMI         &kp LESS_THAN     &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp BACKSLASH
+&trans   &trans  &kp GRAVE  &kp EQUAL  &kp UNDER    &kp COLON        &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE
+                            &trans     &trans       &kp RIGHT_SHIFT  &kp APOS
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans    &kp UP_ARROW  &trans     &kp C_VOL_UP         &kp PAGE_UP    &kp HOME  &none        &trans  &trans
+&trans  &trans    &kp UP_ARROW  &trans     &kp C_VOL_UP         &kp PAGE_UP    &kp HOME  &none        &trans  &kp DELETE
 &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &kp PAGE_DOWN  &kp END   &none        &none   &trans
 &trans  &trans    &trans        &none      &none                &instance      &pattern  &code_block  &trans  &trans
                                 &trans     &trans               &trans         &trans
